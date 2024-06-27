@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Anime Landing Page is a visually appealing web page designed to showcase an anime character from the anime "Attack on Titan".
+The Anime Landing Page is a visually appealing web page designed to showcase an anime character (Mikasa Ackerman) from the anime "Attack on Titan".
 
 ## Live preview 
 
