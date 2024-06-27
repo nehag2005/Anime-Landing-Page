@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  max-width: 1500px;
+  margin: 0;
+  padding: 0;
+  font-family: "Livvic", sans-serif;
+}
+
+/* navbar */
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav {
+  background-color: #0c134f;
+  width: 100%;
+  display: flex;
+  padding: 8px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-links {
+  font-size: 21px;
+}
+
+.left-links {
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+  font-size: 16px;
+}
+
+/* content*/
+
+.content {
+  width: 80.28%;
+  background-color: #0c134f;
+  display: flex;
+  flex-direction: row;
+  padding: 50px 150px;
+  gap: 8rem;
+  padding-bottom: 70px;
+}
+
+img {
+  margin-right: 50px;
+  height: auto;
+  width: 400px;
+  border-radius: 25px;
+  border: 5px solid black;
+  flex: 0 1 auto;
+}
+
+.text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  flex-wrap: wrap;
+  font-weight: 150;
+  flex: 1 1 100px;
+}
+
+.title {
+  font-size: x-large;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* spotify cards */
+
+.spotify-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  font-weight: 550;
+  font-size: x-large;
+}
+
+.spotify-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+
+/* quote */
+
+.quote {
+  width: 95.54%;
+  background-color: #0c134f;
+  padding: 40px;
+}
+
+.q {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  font-size: large;
+}
+
+.author {
+  color: white;
+  font-weight: 300;
+}
+
+/* sign up */
+
+.sign-up {
+  display: flex;
+  padding: 30px;
+  background-color: #0c134f;
+  justify-content: space-around;
+  margin: 0 150px;
+  border-radius: 15px;
+  gap: 5rem;
+  margin-top: 30px;
+}
+
+.join-msg {
+  color: white;
+  font-weight: 200;
+}
+
+.btn {
+  background-color: white;
+  border-radius: 7px;
+  font-size: medium;
+  font-weight: bold;
+  align-self: center;
+  padding: 20px 80px;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0eefd;
+  margin-top: 30px;
+  padding: 15px;
+  font-weight: 100;
+  width: 99%;
+}
